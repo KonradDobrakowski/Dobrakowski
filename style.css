@@ -1,0 +1,84 @@
+body * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+   
+}
+div {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+div > * {
+   /* border: 1px solid #F0f;
+    padding: 1em; */     
+}
+header {
+    flex-basis: 100%;
+    background-color: #5a2e53;
+    color: white;
+    text-align: center;
+    padding: 4em;
+}
+.gora{
+    margin: 0.5em;
+    padding: 0.5em;
+}
+h1 {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: .10em;
+    justify-content: center;
+    display: block;
+    border: 1px solid hsl(220, 50%, 80%);
+    padding: 0.5em;
+    background-color: hsl(220, 50%, 80%);
+    text-decoration: none;
+    font-weight: bold;
+    width: 35%;
+    
+}
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    width: 20%;
+    color: white;
+}
+article {
+    border-bottom: 1px;
+     text-align: center; 
+}
+section {
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    margin: .9em;
+
+    
+}
+section > article {
+    border: 1px solid #FFF; 
+    padding: 1em; 
+}
+section article:nth-of-type(1),
+section article:nth-of-type(2) {
+    flex-basis: 48%;
+    background-color:aliceblue;
+}
+footer {
+    color: white;
+    padding: 5em;
+    flex-basis: 100%;
+    text-align: center;
+    background-image: url(https://picsum.photos/1650/500);
+}
